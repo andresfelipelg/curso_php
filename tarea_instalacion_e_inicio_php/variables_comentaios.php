@@ -14,5 +14,11 @@
     //Variables
 
     $nombre = 'Andres';
+    $edad = 34;
 
+    print 'El nombre del usuario es '. $nombre. '<br>';
+    print "El nombre del usuario es $nombre <br>";
+    echo'El nombre es '.$nombre . 'y tiene '.$edad .' años'.'<br>';
+    echo $nombre,$edad;
+ 
 ?>
